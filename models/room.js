@@ -18,6 +18,16 @@ const RoomSchema = Schema({
   },
   hotelId: { 
     type: String
+  },
+  //New
+  type: {
+    type: String
+  },
+  numberOfBeds: {
+    type: Number
+  },
+  minibar: {
+    type: Boolean
   }
 });
 
